@@ -66,8 +66,11 @@
         "silk_over_copper|150126423|126450754|06281a83-f748-4a32-b511-63d8253bb2d4|00000000-0000-0000-0000-000000000000",
         "silk_overlap|140940000|87500000|d28fdc36-1796-4bba-a0fc-583c2df1ed62|0925949b-afda-4733-8313-c2c922daea69",
         "silk_overlap|156817708|114378992|06281a83-f748-4a32-b511-63d8253bb2d4|bd2824d3-b803-4a50-9580-57a60a677216",
-        "silk_overlap|159060000|87500000|d28fdc36-1796-4bba-a0fc-583c2df1ed62|0e751101-3c7f-4c0b-aaec-0c84293b280e",
-        "starved_thermal|143450000|129637500|49c3fa9d-3fe6-4178-a6d5-86376f7a6e45|db5edb8c-e6e7-4d4e-906d-796e981673d0|B.Cu"
+        "silk_overlap|159060000|87500000|0e751101-3c7f-4c0b-aaec-0c84293b280e|d28fdc36-1796-4bba-a0fc-583c2df1ed62",
+        "starved_thermal|143450000|129637500|49c3fa9d-3fe6-4178-a6d5-86376f7a6e45|db5edb8c-e6e7-4d4e-906d-796e981673d0|B.Cu",
+        "starved_thermal|161600000|129268750|49c3fa9d-3fe6-4178-a6d5-86376f7a6e45|9c6c279d-5cf0-42c3-bc05-05ed5730c470|F.Cu",
+        "starved_thermal|163662500|117400000|49c3fa9d-3fe6-4178-a6d5-86376f7a6e45|0c1071e7-3a2a-4390-b047-aa2b6c0fb0a6|F.Cu",
+        "starved_thermal|169500000|125050000|49c3fa9d-3fe6-4178-a6d5-86376f7a6e45|a6d03a41-23c2-4a65-8564-0af2eab03262|F.Cu"
       ],
       "meta": {
         "version": 2
@@ -471,23 +474,6 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "Default",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.15,
-        "via_diameter": 0.5,
-        "via_drill": 0.3,
-        "wire_width": 6
-      },
-      {
-        "bus_width": 12,
-        "clearance": 1.5,
-        "diff_pair_gap": 0.2,
-        "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.15,
-        "line_style": 0,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
-        "name": "190V",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.15,
