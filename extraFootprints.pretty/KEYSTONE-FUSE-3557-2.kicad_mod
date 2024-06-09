@@ -1,0 +1,242 @@
+(footprint "KEYSTONE-FUSE-3557-2"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(tags "KEYSTONE, FUSE, ATO, ATC, HOLDER 3557-2")
+	(property "Reference" "**REF"
+		(at -5.8 -5 0)
+		(layer "F.SilkS")
+		(uuid "ba0e6525-ee4e-42e0-ace6-f6ae3eb23bd9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify right top)
+		)
+	)
+	(property "Value" "ATO_FUSE"
+		(at 10.1 -4.9 0)
+		(layer "F.SilkS")
+		(uuid "bf0fa09c-b1c6-4af5-b981-a7c5de56a13e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify right top)
+		)
+	)
+	(property "Footprint" "KEYSTONE-FUSE-3557-2"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2e7d1beb-87c6-4be3-9710-eb0872f4189a")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "80b0d2cd-2ca2-43d1-9f19-e854bec53fc5")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f0dd1d7f-f726-4535-a0c5-bc883fe60f54")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -9.905 -3.365)
+		(end 9.905 -3.365)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9db50bd3-186d-4fdd-97fd-38d5c3029a74")
+	)
+	(fp_line
+		(start -9.905 3.365)
+		(end -9.905 -3.365)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "aea8f90f-a4d1-4a2a-a69b-f75b5de77793")
+	)
+	(fp_line
+		(start 9.905 -3.365)
+		(end 9.905 3.365)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6dd4173d-421a-428b-a33d-d6295dd49f2e")
+	)
+	(fp_line
+		(start 9.905 3.365)
+		(end -9.905 3.365)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e84ab449-b4ea-48a2-acd0-f554003999d6")
+	)
+	(fp_line
+		(start -10 -3.5)
+		(end 10 -3.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "bb5a1a12-eb26-4cf0-9578-b2a03b61d9bf")
+	)
+	(fp_line
+		(start -10 3.5)
+		(end -10 -3.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "58db0a2b-d72d-44e9-869b-374f328e5c77")
+	)
+	(fp_line
+		(start 10 -3.5)
+		(end 10 3.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "3723b63c-9615-4f7d-b9cf-433e43dd8b82")
+	)
+	(fp_line
+		(start 10 3.5)
+		(end -10 3.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "9e8022dd-255f-4119-a339-ba3673518cd9")
+	)
+	(fp_line
+		(start -9.8 -3.4)
+		(end 9.8 -3.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f8e20291-0ffa-4614-95d0-4c466c399d8d")
+	)
+	(fp_line
+		(start -9.8 3.4)
+		(end -9.8 -3.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b4f118d5-1bce-4db5-862c-7a05b2e0c3c7")
+	)
+	(fp_line
+		(start 9.8 -3.4)
+		(end 9.8 3.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a9bf9735-26f4-48e2-80e9-f75453f1e9ff")
+	)
+	(fp_line
+		(start 9.8 3.4)
+		(end -9.8 3.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0ae000c9-cffa-4cc3-b974-a20af00883d2")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "49d8d751-a050-48f4-9750-2e702642b9e0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -6.735 -1.7 90)
+		(size 2.8 2.8)
+		(drill 1.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "3aa30788-4f76-4358-9c34-ca571ee157b1")
+	)
+	(pad "1" thru_hole circle
+		(at -6.735 1.7 90)
+		(size 2.8 2.8)
+		(drill 1.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "159b5b28-9d98-4e33-8695-2d7718ca61ec")
+	)
+	(pad "2" thru_hole circle
+		(at 6.735 -1.7 90)
+		(size 2.8 2.8)
+		(drill 1.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "f318e4ca-eb03-4498-9845-27c15d07c411")
+	)
+	(pad "2" thru_hole circle
+		(at 6.735 1.7 90)
+		(size 2.8 2.8)
+		(drill 1.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "ac22ae0e-9b33-43ce-8170-eeb59bd2c354")
+	)
+	(model "${KIPRJMOD}/extraFootprints.pretty/fuse-mini-holder-keystone-3568.wrl"
+		(offset
+			(xyz -1 0.3 5)
+		)
+		(scale
+			(xyz 1.3 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)

@@ -16,7 +16,7 @@
 		)
 	)
 	(property "Value" "DS3231-module"
-		(at 0 8.8 0)
+		(at -16.25 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
@@ -29,7 +29,7 @@
 		)
 	)
 	(property "Footprint" "DS3231-module"
-		(at 0 8.8 0)
+		(at -16.25 1.5 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
@@ -160,8 +160,8 @@
 		(uuid "70310a9d-14c5-4562-a669-0b0507711c65")
 	)
 	(fp_line
-		(start -33.2 -12)
-		(end -33.2 12)
+		(start -1.5 -7.75)
+		(end -1.5 7.75)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -170,8 +170,8 @@
 		(uuid "f035b1fd-c184-43d7-afa4-262fc929a99e")
 	)
 	(fp_line
-		(start -33.2 12)
-		(end 1.8 12)
+		(start -1.5 7.75)
+		(end 1.5 7.75)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -180,8 +180,8 @@
 		(uuid "c5f6cc94-3e48-4856-b241-6c78346cbaf4")
 	)
 	(fp_line
-		(start 1.8 -12)
-		(end -33.2 -12)
+		(start 1.5 -7.75)
+		(end -1.5 -7.75)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -190,8 +190,8 @@
 		(uuid "9cbad5ad-07d5-4238-a407-f8989c5c7872")
 	)
 	(fp_line
-		(start 1.8 12)
-		(end 1.8 -12)
+		(start 1.5 7.75)
+		(end 1.5 -7.75)
 		(stroke
 			(width 0.05)
 			(type solid)
